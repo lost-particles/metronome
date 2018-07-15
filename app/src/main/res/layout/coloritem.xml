@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/color1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="27dp"
+            app:srcCompat="@drawable/bluegrey"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:id="@+id/color2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/color1"
+            android:layout_toEndOf="@+id/color1"
+            app:srcCompat="@drawable/lime" />
+
+        <ImageView
+            android:id="@+id/color3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/color2"
+            android:layout_toEndOf="@+id/color2"
+            app:srcCompat="@drawable/red" />
+
+        <ImageView
+            android:id="@+id/color4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/color3"
+            android:layout_toEndOf="@+id/color3"
+            app:srcCompat="@drawable/pink" />
+
+        <ImageView
+            android:id="@+id/color5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/color1"
+            android:layout_below="@+id/color1"
+            app:srcCompat="@drawable/purple" />
+
+        <ImageView
+            android:id="@+id/color6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/color2"
+            android:layout_toEndOf="@+id/color1"
+            app:srcCompat="@drawable/teal" />
+    </RelativeLayout>
+</LinearLayout>

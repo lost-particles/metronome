@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1016311101425",
+    "firebase_url": "https://metronome-35287.firebaseio.com",
+    "project_id": "metronome-35287",
+    "storage_bucket": "metronome-35287.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016311101425:android:36a7b2152ec17364",
+        "android_client_info": {
+          "package_name": "com.lostparticles.dev.metronome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016311101425-6dl13ak04njjcrhrqegq2c1ff1ma8f91.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhsnP9DAjeRx2IgpgLYcEB5WMYakQckR4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

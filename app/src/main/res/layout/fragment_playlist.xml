@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:orientation="horizontal"
+       android:id="@+id/playlist"
+       android:layout_marginTop="5dp"
+       android:layout_marginBottom="5dp">
+      <ImageView
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="2"
+          android:src="@drawable/add"/>
+       <TextView
+           android:layout_width="0dp"
+           android:layout_weight="8"
+           android:layout_height="match_parent"
+           android:text="Create Playlist"
+           android:textSize="20sp"
+           android:gravity="center_vertical"/>
+
+
+
+
+   </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="18"
+        android:id="@+id/playlistlv"
+        android:paddingLeft="10dp"/>
+
+
+
+
+
+
+
+
+    </LinearLayout>

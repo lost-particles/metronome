@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_album"
+        android:id="@+id/curimage"
+        android:layout_gravity="center_vertical"/>
+    
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp">
+    
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="Animals - maroon 5"
+        android:maxLines="2"
+        android:ellipsize="marquee"
+
+        android:id="@+id/tvname"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cross"
+                android:id="@+id/close"
+                android:clickable="true"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="Maroon - 5"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/tvalbum"
+            android:maxLines="1"
+            android:ellipsize="marquee"
+            android:gravity="center_vertical"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@drawable/noti_previous"
+                android:id="@+id/notiprev"
+                android:clickable="true"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@drawable/barpause"
+                android:id="@+id/notiplaypause"
+                android:clickable="true"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@drawable/noti_next"
+                android:id="@+id/notinext"
+                android:clickable="true"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    
+
+
+</LinearLayout>

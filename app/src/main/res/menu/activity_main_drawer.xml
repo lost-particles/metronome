@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:groupandroid="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+
+       <item
+           android:id="@+id/settings"
+           android:icon="@drawable/settings"
+           android:title="Settings"
+           />
+
+        <item
+            android:id="@+id/rescan"
+            android:icon="@drawable/rescan"
+            android:title="Rescan" />
+
+       <!-- <item
+            android:id="@+id/answered"
+            android:icon="@drawable/ic_chat"
+            android:title="Answered" />
+        <item
+            android:id="@+id/asked"
+            android:icon="@drawable/ic_chatbubble"
+            android:title="Asked" />
+        <item
+            android:id="@+id/notice"
+            android:icon="@drawable/ic_notice"
+            android:title="Notice" />
+        <item
+            android:id="@+id/projects"
+            android:icon="@drawable/ic_devboard"
+            android:title="Projects" />
+        <item
+            android:id="@+id/internship"
+            android:icon="@drawable/ic_blur"
+            android:title="Internships"
+            />-->
+    </group>
+
+    <item>
+    <group android:checkableBehavior="single">
+        <menu>
+
+
+
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/about"
+                android:title="About"
+                />
+
+
+
+
+        </menu>
+    </group>
+    </item>
+</menu>

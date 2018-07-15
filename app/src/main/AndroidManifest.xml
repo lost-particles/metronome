@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lostparticles.dev.metronome">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.lostparticles.dev.metronome.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.lostparticles.dev.metronome.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable"
+                android:resource="@xml/searchable"/>
+
+        </activity>
+        <activity android:name="com.lostparticles.dev.metronome.MusicControl" />
+
+        <service android:name="com.lostparticles.dev.metronome.MusicService" />
+
+        <activity android:name="com.lostparticles.dev.metronome.Album_Artist_Details" />
+        <activity android:name="com.lostparticles.dev.metronome.settings" />
+        <activity android:name="com.lostparticles.dev.metronome.playlistdetails" />
+        <activity android:name="com.lostparticles.dev.metronome.About"></activity>
+
+        <receiver android:name="com.lostparticles.dev.metronome.broadcast_receiver">
+
+            <intent-filter>
+
+                <action android:name="handle.notification.click"/>
+
+
+            </intent-filter>
+
+        </receiver>
+    </application>
+
+</manifest>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#607d8b</color>
+    <color name="colorPrimaryDark">#37474f</color>
+    <color name="colorAccent">#90a4ae</color>
+    <color name="backcolor">#78909c</color>
+
+    <color name="colorPrimaryLime">#cddc39</color>
+    <color name="colorPrimaryDarkLime">#afb42b</color>
+    <color name="colorAccentLime">#e6ee9c</color>
+    <color name="backcolorLime">#dce775</color>
+
+
+
+    <color name="colorPrimaryRed">#f44336</color>
+    <color name="colorPrimaryDarkRed">#c62828</color>
+    <color name="colorAccentRed">#ef9a9a</color>
+    <color name="backcolorRed">#e57373</color>
+
+
+
+    <color name="colorPrimaryPink">#e91e63</color>
+    <color name="colorPrimaryDarkPink">#ad1457</color>
+    <color name="colorAccentPink">#f48fb1</color>
+    <color name="backcolorPink">#f06292</color>
+
+
+    <color name="colorPrimaryPurple">#9c27b0</color>
+    <color name="colorPrimaryDarkPurple">#6a1b9a</color>
+    <color name="colorAccentPurple">#ce93d8</color>
+    <color name="backcolorPurple">#ba68c8</color>
+
+
+    <color name="colorPrimaryTeal">#009688</color>
+    <color name="colorPrimaryDarkTeal">#00695c</color>
+    <color name="colorAccentTeal">#80cbc4</color>
+    <color name="backcolorTeal">#4db6ac</color>
+
+    <color name="white">#ffffff</color>
+
+    <color name="materialgrey">#616161</color>
+    <color name="black">#000000</color>
+
+</resources>
